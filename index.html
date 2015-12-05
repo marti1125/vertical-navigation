@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container custom_container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Company</a>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="#section1" class="item_menu">
+            <img src="./img/1b.png" alt="1">
+          </a>
+        </li>
+        <li>
+          <a href="#section2" class="item_menu">
+            <img src="./img/2.png" alt="2">
+          </a>
+        </li>
+        <li>
+          <a href="#section3" class="item_menu">
+            <img src="./img/3.png" alt="3">
+          </a>
+        </li>
+        <li>
+          <a href="#section4" class="item_menu">
+            <img src="./img/4.png" alt="4">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+
+      <div id="section1" class="row">
+        <div class="col-xs-12">
+          <div class="row section_content">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+              <h1>Section 1</h1>
+            </div>
+            <div class="col-xs-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="section2" class="row">
+        <div class="col-xs-12">
+          <div class="row section_content">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+              <h1>Section 2</h1>
+            </div>
+            <div class="col-xs-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="section3" class="row">
+        <div class="col-xs-12">
+          <div class="row section_content">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+              <h1>Section 3</h1>
+            </div>
+            <div class="col-xs-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="section4" class="row">
+        <div class="col-xs-12">
+          <div class="row section_content">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+              <h1>Section 4</h1>
+            </div>
+            <div class="col-xs-3"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/vm_img.js"></script>
+    <script>
+      $("#menu").vm_img({
+        path_img: "./img/"
+      });
+    </script>
+  </body>
+</html>
