@@ -8,6 +8,8 @@ Vertical Navigation v0.1.0
 
 > Inspiration https://codyhouse.co/gem/vertical-fixed-navigation/
 
+> Demo http://marti1125.github.io/vertical-navigation/
+
 Dependencie
 ------------
 
