@@ -1,0 +1,30 @@
+{
+  "name": "vertical-navigation",
+  "version": "0.1.0",
+  "description": "vertical navigation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marti1125/vertical-navigation.git"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "vertical-navigation"
+  ],
+  "author": "Willy Aguirre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marti1125/vertical-navigation/issues"
+  },
+  "homepage": "https://github.com/marti1125/vertical-navigation#readme",
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-uglify": "1.4.1",
+    "gulp-rename": "1.2.2",
+    "gulp-header": "1.7.1"
+  }
+}

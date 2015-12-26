@@ -1,5 +1,5 @@
-Vertical Navigation v0.1
------------------
+Vertical Navigation v0.1.0
+--------------------------
 
 
 > jQuery Plugin
@@ -17,6 +17,7 @@ Dependencie
 Use
 ----
 
+In demo directory you can find the full example
 
       <div id="menu">
         <ul>
@@ -43,7 +44,7 @@ Use
         </ul>
       </div>
 
-
+      <script src="js/vertical_navigation.min.js"></script>
       <script>
         $("#menu").vm_img({
           path_img: "./img/"
